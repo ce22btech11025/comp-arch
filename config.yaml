@@ -1,0 +1,32 @@
+# ==========================
+# Project Configuration File
+# ==========================
+
+paths:
+  input_programs: "./input_programs"
+  transformed_programs: "./transformed_programs"
+  analyzer_output: "./analyzer/output"
+  logs_dir: "./logs"
+
+compiler:
+  c_compiler: "gcc"
+  default_flags: "-O2 -Wall"
+  fpu_flags: "-mfpu=neon -mfloat-abi=hard"
+  output_binary: "./bin/output_exec"
+
+fpu:
+  precision: "double"        # Options: single | double | extended
+  rounding_mode: "nearest"   # Options: nearest | zero | up | down
+
+visualizer:
+  theme: "dark"
+  graph_format: "png"
+  show_latency: true
+
+runtime:
+  parallel_execution: true
+  max_threads: 4
+
+logging:
+  level: "INFO"   # Options: DEBUG | INFO | WARNING | ERROR
+  file: "project.log"
