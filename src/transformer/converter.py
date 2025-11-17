@@ -37,7 +37,7 @@ class Converter:
         # Write out the transformed code
         output_path.write_text(transformed, encoding='utf-8')
 
-        print(f"[Transformer] ✅ Saved transformed file: {output_path}")
+        print(f"[Transformer]  Saved transformed file: {output_path}")
         return str(output_path)
 
     def transform_all(self):
@@ -47,5 +47,5 @@ class Converter:
                 try:
                     self.transform_file(f)
                 except Exception as e:
-                    print(f"[Transformer] ❌ Failed to transform {f}: {e}")
+                    print(f"[Transformer] Failed to transform {f}: {e}")
         print(f"[Transformer] Completed transformations.")

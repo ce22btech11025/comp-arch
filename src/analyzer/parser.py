@@ -1,6 +1,7 @@
-from clang import cindex
-from clang.cindex import Config
 import os
+from clang import cindex
+cindex.Config.set_library_path(r"C:\Program Files\LLVM\bin")
+from clang.cindex import Config
 
 # === Fix for libclang.dll missing on Windows ===
 # Try default LLVM path or custom environment variable

@@ -41,5 +41,5 @@ class PlotResults:
         plot_path = self.output_dir / "alu_vs_fpu_runtime_comparison.png"
         plt.savefig(plot_path)
         plt.close()
-        print(f"[Visualizer] ✅ Plot saved at {plot_path}")
+        print(f"[Visualizer] Plot saved at {plot_path}")
         return plot_path

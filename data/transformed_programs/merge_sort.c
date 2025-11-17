@@ -8,8 +8,8 @@
 void merge(float arr[], int l, int m, int r) {
 float n1 = m - l + 1;
 float n2 = r - m;
-float *L = (int *)malloc(n1 * sizeof(int));
-float *R = (int *)malloc(n2 * sizeof(int));
+float *L = (float *)malloc(n1 * sizeof(float));
+float *R = (float *)malloc(n2 * sizeof(float));
 
     for (int i = 0; i < n1; i++) L[i] = arr[l + i];
     for (int j = 0; j < n2; j++) R[j] = arr[m + 1 + j];
@@ -34,9 +34,9 @@ int m = l + (r - l) / 2;
 }
 
 int main() {
-    static int arr[N];
+static float arr[N];
     srand(0);
-    for (int i = 0; i < N; i++) arr[i] = rand();
+    for (float i = 0; i < N; i++) arr[i] = rand();
 
     clock_t start = clock();
     mergeSort(arr, 0, N - 1);

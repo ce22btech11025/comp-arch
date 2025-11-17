@@ -31,9 +31,9 @@ class CompilerRunner:
         print(f"[Compiler] Running: {' '.join(cmd)}")
         try:
             subprocess.run(cmd, check=True, capture_output=True, text=True)
-            print(f"[Compiler] ✅ Successfully built {output_exe}")
+            print(f"[Compiler]  Successfully built {output_exe}")
         except subprocess.CalledProcessError as e:
-            print(f"[Compiler] ❌ Compilation failed for {source_path}")
+            print(f"[Compiler]  Compilation failed for {source_path}")
             print("stderr:", e.stderr)
             raise
 

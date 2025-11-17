@@ -1,0 +1,6 @@
+ALU vs FPU Performance Summary
+----------------------------------------
+dot_product.exe            ALU: 4.323961s  |  FPU: 11.369644s  |  Δ: -162.95%
+matrix_multiplication.exe  ALU: 3.291147s  |  FPU: 4.448528s  |  Δ: -35.17%
+merge_sort.exe             ALU: 0.622163s  |  FPU: 0.926077s  |  Δ: -48.85%
+vector_addition.exe        ALU: 4.616469s  |  FPU: 4.660812s  |  Δ: -0.96%
