@@ -1,0 +1,67 @@
+===== Run 1 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.013000 sec
+
+===== Run 2 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.012000 sec
+
+===== Run 3 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.013000 sec
+
+===== Run 4 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.015000 sec
+
+===== Run 5 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.013000 sec
+
+===== Run 6 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.013000 sec
+
+===== Run 7 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.014000 sec
+
+===== Run 8 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.015000 sec
+
+===== Run 9 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.014000 sec
+
+===== Run 10 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.013000 sec
+
+===== Run 11 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.014000 sec
+
+===== Run 12 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.012000 sec
+
+===== Run 13 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.012000 sec
+
+===== Run 14 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.013000 sec
+
+===== Run 15 =====
+Dot product (int-SIMD) = 24480487098
+Time (int-SIMD) = 0.013000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.013267 sec
+Average dot_product: 24480487098.000
