@@ -7,9 +7,9 @@
 #define KERNEL_SIZE 5
 
 int main() {
-    static int input[INPUT_SIZE];
-    static int kernel[KERNEL_SIZE];
-    static int output[INPUT_SIZE - KERNEL_SIZE + 1];
+static float input[INPUT_SIZE];
+static float kernel[KERNEL_SIZE];
+static float output[INPUT_SIZE - KERNEL_SIZE + 1];
 
     srand(0);
     for (int i = 0; i < INPUT_SIZE; i++) input[i] = rand() % 10;

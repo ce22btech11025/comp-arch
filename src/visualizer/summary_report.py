@@ -31,8 +31,8 @@ class SummaryReport:
             speedup = (int_time - fp_time) / int_time * 100
             summary_lines.append(f"{prog:<25}  ALU: {int_time:.6f}s  |  FPU: {fp_time:.6f}s  |  Δ: {speedup:+.2f}%\n")
 
-        with open(self.output_file, 'w') as f:
+        with open("summary.txt", "w", encoding="utf-8") as f:
             f.writelines(summary_lines)
 
-        print(f"[Visualizer] ✅ Summary written to {self.output_file}")
+        print(f"[Visualizer] Summary written to {self.output_file}")
         return self.output_file

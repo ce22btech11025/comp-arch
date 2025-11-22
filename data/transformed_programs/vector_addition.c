@@ -6,7 +6,7 @@
 #define N 10000000
 
 int main() {
-    static int A[N], B[N], C[N];
+static float A[N], B[N], C[N];
     srand(0);
 
     for (int i = 0; i < N; i++) {

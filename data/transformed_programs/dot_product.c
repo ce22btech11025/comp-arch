@@ -6,7 +6,7 @@
 #define N 10000000
 
 int main() {
-    static int A[N], B[N];
+static float A[N], B[N];
 float sum = 0;
     srand(0);
 

@@ -7,10 +7,11 @@ from src.executor.benchmark_runner import BenchmarkRunner
 from src.visualizer.plot_results import PlotResults
 from src.visualizer.summary_report import SummaryReport
 
+
 def main():
     print("\n=== ALU vs FPU Optimization Workflow ===\n")
 
-    # 1️⃣ Analyze sample input programs
+    # 1 Analyze sample input programs
     input_dir = "data/input_programs"
     parser = CParser()
     for file in os.listdir(input_dir):
@@ -21,11 +22,11 @@ def main():
             print(f"[Analysis] {file}: {len(analysis_result['operations'])} arithmetic ops, "
                   f"{len(analysis_result['loops'])} loops, {len(analysis_result['variables'])} vars")
 
-    # 2️⃣ Transform integer → floating-point
+    # 2 Transform integer → floating-point
     converter = Converter(promote_to="float")
     converter.transform_all()
 
-    # 3️⃣ Compile both versions
+    # 3 Compile both versions
     compiler = CompilerRunner()
     for file in os.listdir(input_dir):
         if file.endswith(".c"):
@@ -34,21 +35,21 @@ def main():
             # Compile floating version
             compiler.compile(os.path.join("data/transformed_programs", file), output_name=f"{os.path.splitext(file)[0]}_fp")
 
-    # 4️⃣ Benchmark executions
+    # 4 Benchmark executions
     benchmarker = BenchmarkRunner()
     bin_dir = "data/results/bin"
     for exe in os.listdir(bin_dir):
         if os.access(os.path.join(bin_dir, exe), os.X_OK):
             benchmarker.run(os.path.join(bin_dir, exe))
 
-    # 5️⃣ Visualization and report generation
+    # 5 Visualization and report generation
     plotter = PlotResults()
     plotter.plot_comparison()
 
     reporter = SummaryReport()
     reporter.generate()
 
-    print("\n✅ Workflow complete! Results stored in data/results/\n")
+    print("\n Workflow complete! Results stored in data/results/\n")
 
 if __name__ == "__main__":
     main()
@@ -61,7 +62,7 @@ if __name__ == "__main__":
 # from src.visualizer.plot_results import PlotResults
 # from src.visualizer.summary_report import SummaryReport
 
-# # Newly added imports 👇
+# # Newly added imports  
 # from src.utils.file_ops import read_yaml
 # from src.utils.logger import get_logger
 
@@ -85,7 +86,7 @@ if __name__ == "__main__":
 #         os.makedirs(path, exist_ok=True)
 #     os.makedirs(bin_dir, exist_ok=True)
 
-#     # 1️⃣ Analyze sample input programs
+#     # 1 Analyze sample input programs
 #     parser = CParser()
 #     for file in os.listdir(input_dir):
 #         if file.endswith(".c"):
@@ -96,12 +97,12 @@ if __name__ == "__main__":
 #             logger.info(f"[Analysis] {file}: {len(analysis_result['operations'])} ops, "
 #                         f"{len(analysis_result['loops'])} loops, {len(analysis_result['variables'])} vars")
 
-#     # 2️⃣ Transform integer → floating-point
+#     # 2 Transform integer → floating-point
 #     converter = Converter(promote_to=config["fpu"]["precision"])
 #     converter.transform_all()
-#     logger.info("✅ Code transformation complete.")
+#     logger.info(" Code transformation complete.")
 
-#     # 3️⃣ Compile both versions
+#     # 3 Compile both versions
 #     compiler = CompilerRunner()
 #     for file in os.listdir(input_dir):
 #         if file.endswith(".c"):
@@ -113,27 +114,27 @@ if __name__ == "__main__":
 #             compiler.compile(src_file, output_name=int_out)
 #             compiler.compile(transformed_file, output_name=fp_out)
 
-#     logger.info("⚙️ Compilation of all programs complete.")
+#     logger.info(" Compilation of all programs complete.")
 
-#     # 4️⃣ Benchmark executions
+#     # 4 Benchmark executions
 #     benchmarker = BenchmarkRunner()
 #     if os.path.exists(bin_dir):
 #         for exe in os.listdir(bin_dir):
 #             exe_path = os.path.join(bin_dir, exe)
 #             if os.access(exe_path, os.X_OK):
 #                 benchmarker.run(exe_path)
-#         logger.info("📊 Benchmarking complete.")
+#         logger.info(" Benchmarking complete.")
 #     else:
-#         logger.warning(f"⚠️ Binary directory not found: {bin_dir}")
+#         logger.warning(f" Binary directory not found: {bin_dir}")
 
-#     # 5️⃣ Visualization and report generation
+#     # 5 Visualization and report generation
 #     plotter = PlotResults()
 #     plotter.plot_comparison()
 
 #     reporter = SummaryReport()
 #     reporter.generate()
 
-#     logger.info("✅ Workflow complete! Results stored in data/results/")
+#     logger.info(" Workflow complete! Results stored in data/results/")
 
 
 # if __name__ == "__main__":

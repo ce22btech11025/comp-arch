@@ -6,7 +6,7 @@
 #define N 512
 
 int main() {
-    static int A[N][N], B[N][N], C[N][N];
+static float A[N][N], B[N][N], C[N][N];
     srand(0);
 
     for (int i = 0; i < N; i++)
