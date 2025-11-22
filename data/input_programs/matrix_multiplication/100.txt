@@ -1,0 +1,2 @@
+Matrix Multiplication (100% Int / 0% Float) completed in 0.001000 sec
+Result written to out_int100float0.txt

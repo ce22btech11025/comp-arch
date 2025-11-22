@@ -1,0 +1,1496 @@
+====== GLOBAL BENCHMARK LOG ======
+
+EXECUTABLE: 1-normal.exe
+
+----- Run 1 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.013000 sec
+
+
+----- Run 2 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.011000 sec
+
+
+----- Run 3 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.025000 sec
+
+
+----- Run 4 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.015000 sec
+
+
+----- Run 5 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.012000 sec
+
+
+----- Run 6 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.012000 sec
+
+
+----- Run 7 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.011000 sec
+
+
+----- Run 8 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.009000 sec
+
+
+----- Run 9 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 10 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 11 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 12 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 13 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 14 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 15 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.011000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.011933 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 2-normal.exe
+
+----- Run 1 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 2 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.015000 sec
+
+
+----- Run 3 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.017000 sec
+
+
+----- Run 4 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.013000 sec
+
+
+----- Run 5 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.014000 sec
+
+
+----- Run 6 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.009000 sec
+
+
+----- Run 7 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.011000 sec
+
+
+----- Run 8 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 9 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 10 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.010000 sec
+
+
+----- Run 11 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.011000 sec
+
+
+----- Run 12 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 13 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.010000 sec
+
+
+----- Run 14 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.010000 sec
+
+
+----- Run 15 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.013000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.012067 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 5-normal.exe
+
+----- Run 1 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.011000 sec
+
+
+----- Run 2 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.012000 sec
+
+
+----- Run 3 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.017000 sec
+
+
+----- Run 4 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.015000 sec
+
+
+----- Run 5 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.012000 sec
+
+
+----- Run 6 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.010000 sec
+
+
+----- Run 7 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.010000 sec
+
+
+----- Run 8 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.010000 sec
+
+
+----- Run 9 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.012000 sec
+
+
+----- Run 10 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.010000 sec
+
+
+----- Run 11 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.012000 sec
+
+
+----- Run 12 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.010000 sec
+
+
+----- Run 13 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.014000 sec
+
+
+----- Run 14 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.023000 sec
+
+
+----- Run 15 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.016000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.012933 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 6-normal.exe
+
+----- Run 1 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.010000 sec
+
+
+----- Run 2 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.015000 sec
+
+
+----- Run 3 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.018000 sec
+
+
+----- Run 4 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.010000 sec
+
+
+----- Run 5 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.012000 sec
+
+
+----- Run 6 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.011000 sec
+
+
+----- Run 7 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.011000 sec
+
+
+----- Run 8 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.008000 sec
+
+
+----- Run 9 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.009000 sec
+
+
+----- Run 10 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.007000 sec
+
+
+----- Run 11 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.010000 sec
+
+
+----- Run 12 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.010000 sec
+
+
+----- Run 13 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.010000 sec
+
+
+----- Run 14 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.008000 sec
+
+
+----- Run 15 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.010000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.010600 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 7-normal.exe
+
+----- Run 1 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.012000 sec
+
+
+----- Run 2 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.015000 sec
+
+
+----- Run 3 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.015000 sec
+
+
+----- Run 4 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.015000 sec
+
+
+----- Run 5 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.014000 sec
+
+
+----- Run 6 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.014000 sec
+
+
+----- Run 7 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.017000 sec
+
+
+----- Run 8 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.012000 sec
+
+
+----- Run 9 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.012000 sec
+
+
+----- Run 10 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.015000 sec
+
+
+----- Run 11 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.012000 sec
+
+
+----- Run 12 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.012000 sec
+
+
+----- Run 13 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.011000 sec
+
+
+----- Run 14 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.015000 sec
+
+
+----- Run 15 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.013000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.013600 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 8-normal.exe
+
+----- Run 1 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.009000 sec
+
+
+----- Run 2 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.009000 sec
+
+
+----- Run 3 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.010000 sec
+
+
+----- Run 4 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.010000 sec
+
+
+----- Run 5 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.007000 sec
+
+
+----- Run 6 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.010000 sec
+
+
+----- Run 7 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.010000 sec
+
+
+----- Run 8 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.010000 sec
+
+
+----- Run 9 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.007000 sec
+
+
+----- Run 10 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.011000 sec
+
+
+----- Run 11 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.011000 sec
+
+
+----- Run 12 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.011000 sec
+
+
+----- Run 13 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.011000 sec
+
+
+----- Run 14 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.012000 sec
+
+
+----- Run 15 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.011000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.009933 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 9-normal.exe
+
+----- Run 1 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.011000 sec
+
+
+----- Run 2 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.013000 sec
+
+
+----- Run 3 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.012000 sec
+
+
+----- Run 4 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.017000 sec
+
+
+----- Run 5 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.010000 sec
+
+
+----- Run 6 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.012000 sec
+
+
+----- Run 7 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.013000 sec
+
+
+----- Run 8 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.014000 sec
+
+
+----- Run 9 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.013000 sec
+
+
+----- Run 10 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.012000 sec
+
+
+----- Run 11 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.008000 sec
+
+
+----- Run 12 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.010000 sec
+
+
+----- Run 13 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.012000 sec
+
+
+----- Run 14 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.010000 sec
+
+
+----- Run 15 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.017000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.012267 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 10-normal.exe
+
+----- Run 1 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.012000 sec
+
+
+----- Run 2 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.011000 sec
+
+
+----- Run 3 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.024000 sec
+
+
+----- Run 4 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.011000 sec
+
+
+----- Run 5 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.010000 sec
+
+
+----- Run 6 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.010000 sec
+
+
+----- Run 7 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.018000 sec
+
+
+----- Run 8 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.014000 sec
+
+
+----- Run 9 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.016000 sec
+
+
+----- Run 10 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.013000 sec
+
+
+----- Run 11 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.016000 sec
+
+
+----- Run 12 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.015000 sec
+
+
+----- Run 13 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.010000 sec
+
+
+----- Run 14 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.013000 sec
+
+
+----- Run 15 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.013000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.013733 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 11-normal.exe
+
+----- Run 1 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.010000 sec
+
+
+----- Run 2 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.007000 sec
+
+
+----- Run 3 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.013000 sec
+
+
+----- Run 4 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+----- Run 5 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+----- Run 6 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.007000 sec
+
+
+----- Run 7 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.012000 sec
+
+
+----- Run 8 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.008000 sec
+
+
+----- Run 9 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+----- Run 10 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.008000 sec
+
+
+----- Run 11 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.010000 sec
+
+
+----- Run 12 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.007000 sec
+
+
+----- Run 13 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.008000 sec
+
+
+----- Run 14 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.008000 sec
+
+
+----- Run 15 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.007000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.008800 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 1-native.exe
+
+----- Run 1 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.008000 sec
+
+
+----- Run 2 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 3 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.013000 sec
+
+
+----- Run 4 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.007000 sec
+
+
+----- Run 5 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.007000 sec
+
+
+----- Run 6 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.009000 sec
+
+
+----- Run 7 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.007000 sec
+
+
+----- Run 8 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.012000 sec
+
+
+----- Run 9 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.009000 sec
+
+
+----- Run 10 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 11 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.007000 sec
+
+
+----- Run 12 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.007000 sec
+
+
+----- Run 13 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 14 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.010000 sec
+
+
+----- Run 15 -----
+Dot product (int-normal) = 24480487098
+Time (int-normal) = 0.006000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.008800 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 2-native.exe
+
+----- Run 1 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.011000 sec
+
+
+----- Run 2 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.013000 sec
+
+
+----- Run 3 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.018000 sec
+
+
+----- Run 4 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 5 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.014000 sec
+
+
+----- Run 6 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 7 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 8 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 9 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.014000 sec
+
+
+----- Run 10 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.014000 sec
+
+
+----- Run 11 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 12 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.014000 sec
+
+
+----- Run 13 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.014000 sec
+
+
+----- Run 14 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.012000 sec
+
+
+----- Run 15 -----
+Dot product (float-normal) = 24480487098
+Time (float-normal) = 0.013000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.013133 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 5-native.exe
+
+----- Run 1 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.011000 sec
+
+
+----- Run 2 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.007000 sec
+
+
+----- Run 3 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.011000 sec
+
+
+----- Run 4 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.009000 sec
+
+
+----- Run 5 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.007000 sec
+
+
+----- Run 6 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.009000 sec
+
+
+----- Run 7 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.010000 sec
+
+
+----- Run 8 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.009000 sec
+
+
+----- Run 9 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.008000 sec
+
+
+----- Run 10 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.007000 sec
+
+
+----- Run 11 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.007000 sec
+
+
+----- Run 12 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.008000 sec
+
+
+----- Run 13 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.007000 sec
+
+
+----- Run 14 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.010000 sec
+
+
+----- Run 15 -----
+Dot product (50% ALU / 50% FPU) = 24480487098
+Time (50/50) = 0.010000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.008667 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 6-native.exe
+
+----- Run 1 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.007000 sec
+
+
+----- Run 2 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.009000 sec
+
+
+----- Run 3 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.012000 sec
+
+
+----- Run 4 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.009000 sec
+
+
+----- Run 5 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.007000 sec
+
+
+----- Run 6 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.008000 sec
+
+
+----- Run 7 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.009000 sec
+
+
+----- Run 8 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.007000 sec
+
+
+----- Run 9 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.007000 sec
+
+
+----- Run 10 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.007000 sec
+
+
+----- Run 11 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.007000 sec
+
+
+----- Run 12 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.008000 sec
+
+
+----- Run 13 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.008000 sec
+
+
+----- Run 14 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.010000 sec
+
+
+----- Run 15 -----
+Dot product (60% ALU / 40% FPU) = 24480487098
+Time (60/40) = 0.008000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.008200 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 7-native.exe
+
+----- Run 1 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.007000 sec
+
+
+----- Run 2 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.009000 sec
+
+
+----- Run 3 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.009000 sec
+
+
+----- Run 4 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.007000 sec
+
+
+----- Run 5 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.008000 sec
+
+
+----- Run 6 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.009000 sec
+
+
+----- Run 7 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.009000 sec
+
+
+----- Run 8 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.007000 sec
+
+
+----- Run 9 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.012000 sec
+
+
+----- Run 10 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.010000 sec
+
+
+----- Run 11 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.007000 sec
+
+
+----- Run 12 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.007000 sec
+
+
+----- Run 13 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.007000 sec
+
+
+----- Run 14 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.009000 sec
+
+
+----- Run 15 -----
+Dot product (75% ALU / 25% FPU) = 24480487098
+Time (75/25) = 0.013000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.008667 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 8-native.exe
+
+----- Run 1 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.007000 sec
+
+
+----- Run 2 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.011000 sec
+
+
+----- Run 3 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.010000 sec
+
+
+----- Run 4 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.008000 sec
+
+
+----- Run 5 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.007000 sec
+
+
+----- Run 6 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.008000 sec
+
+
+----- Run 7 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.010000 sec
+
+
+----- Run 8 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.011000 sec
+
+
+----- Run 9 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.009000 sec
+
+
+----- Run 10 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.007000 sec
+
+
+----- Run 11 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.008000 sec
+
+
+----- Run 12 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.007000 sec
+
+
+----- Run 13 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.010000 sec
+
+
+----- Run 14 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.009000 sec
+
+
+----- Run 15 -----
+Dot product (80% ALU / 20% FPU) = 24480487098
+Time (80/20) = 0.009000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.008733 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 9-native.exe
+
+----- Run 1 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.008000 sec
+
+
+----- Run 2 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.010000 sec
+
+
+----- Run 3 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.007000 sec
+
+
+----- Run 4 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.009000 sec
+
+
+----- Run 5 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.011000 sec
+
+
+----- Run 6 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.010000 sec
+
+
+----- Run 7 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.010000 sec
+
+
+----- Run 8 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.006000 sec
+
+
+----- Run 9 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.013000 sec
+
+
+----- Run 10 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.010000 sec
+
+
+----- Run 11 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.008000 sec
+
+
+----- Run 12 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.008000 sec
+
+
+----- Run 13 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.007000 sec
+
+
+----- Run 14 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.009000 sec
+
+
+----- Run 15 -----
+Dot product (90% ALU / 10% FPU) = 24480487098
+Time (90/10) = 0.007000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.008867 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 10-native.exe
+
+----- Run 1 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.010000 sec
+
+
+----- Run 2 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.011000 sec
+
+
+----- Run 3 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.008000 sec
+
+
+----- Run 4 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.008000 sec
+
+
+----- Run 5 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.008000 sec
+
+
+----- Run 6 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.007000 sec
+
+
+----- Run 7 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.007000 sec
+
+
+----- Run 8 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.007000 sec
+
+
+----- Run 9 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.008000 sec
+
+
+----- Run 10 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.008000 sec
+
+
+----- Run 11 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.009000 sec
+
+
+----- Run 12 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.009000 sec
+
+
+----- Run 13 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.007000 sec
+
+
+----- Run 14 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.007000 sec
+
+
+----- Run 15 -----
+Dot product (95% ALU / 5% FPU) = 24480487098
+Time (95/5) = 0.013000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.008467 sec
+Average dot product: 24480487098.000
+EXECUTABLE: 11-native.exe
+
+----- Run 1 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.007000 sec
+
+
+----- Run 2 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+----- Run 3 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.008000 sec
+
+
+----- Run 4 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+----- Run 5 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.011000 sec
+
+
+----- Run 6 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.007000 sec
+
+
+----- Run 7 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.006000 sec
+
+
+----- Run 8 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.008000 sec
+
+
+----- Run 9 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.007000 sec
+
+
+----- Run 10 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+----- Run 11 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+----- Run 12 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+----- Run 13 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.016000 sec
+
+
+----- Run 14 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.011000 sec
+
+
+----- Run 15 -----
+Dot product (100 unroll) = 24480487098
+Time (100 unroll) = 0.009000 sec
+
+
+===== SUMMARY =====
+Runs attempted: 15
+Successful time entries: 15
+Successful dot entries:  15
+Average time: 0.009000 sec
+Average dot product: 24480487098.000
